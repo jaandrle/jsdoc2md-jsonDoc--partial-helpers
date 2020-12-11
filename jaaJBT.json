@@ -30,6 +30,12 @@
             ],
             "target_path": "jsdoc2md_modifications_path"
         },
+        "jsdoc2md__libs_gulp_task": {
+            "version": "1.0.0",
+            "description": "Gulp task for creating docs into `/docs/` from `/src_docs/. From file defined in `docs_locations`.`",
+            "src": "jsdoc2md/libs/for-gulp/task-doc.js",
+            "target_path": "gulp_tasks"
+        },
         "jsdoc2md__libs_modifications": {
             "version": "1.0.0",
             "description": "Metapackage containing all parials and helpers for jsdoc2md to use in libraries",
