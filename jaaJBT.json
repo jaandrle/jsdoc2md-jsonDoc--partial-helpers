@@ -1,0 +1,126 @@
+{
+    "config": {
+        "version": "3.0.0",
+        "root_url": "https://raw.githubusercontent.com/jaandrle/jsdoc2md-jsonDoc--partial-helpers/main/"
+    },
+    "scripts": {
+        "jsdoc2md__dhlc_in_main": {
+            "version": "1.0.0",
+            "description": "Main parial for jsdoc2md to use in cordova projects",
+            "type": "regular",
+            "src": "jsdoc2md/dhlc_in/javascript.md",
+            "target_path": "jsdoc2md_path"
+        },
+        "jsdoc2md__dhlc_in_modifications": {
+            "version": "1.0.0",
+            "description": "Metapackage containing all parials and helpers for jsdoc2md to use in cordova projects",
+            "type": "meta",
+            "src": [
+                "jsdoc2md/dhlc_in/modifications/category.hbs",
+                "jsdoc2md/dhlc_in/modifications/deprecated.hbs",
+                "jsdoc2md/dhlc_in/modifications/description.hbs",
+                "jsdoc2md/dhlc_in/modifications/fires.hbs",
+                "jsdoc2md/dhlc_in/modifications/global-index-dl.hbs",
+                "jsdoc2md/dhlc_in/modifications/helpers_pre.js",
+                "jsdoc2md/dhlc_in/modifications/main.hbs",
+                "jsdoc2md/dhlc_in/modifications/module-index-dl.hbs",
+                "jsdoc2md/dhlc_in/modifications/param-table-name.hbs",
+                "jsdoc2md/dhlc_in/modifications/scope.hbs",
+                "jsdoc2md/dhlc_in/modifications/summary.hbs"
+            ],
+            "target_path": "jsdoc2md_modifications_path"
+        },
+        "jsdoc2md__libs_modifications": {
+            "version": "1.0.0",
+            "description": "Metapackage containing all parials and helpers for jsdoc2md to use in libraries",
+            "type": "meta",
+            "src": [
+                "jsdoc2md/libs/modifications/deprecated.hbs",
+                "jsdoc2md/libs/modifications/description.hbs",
+                "jsdoc2md/libs/modifications/helpers_pre.js",
+                "jsdoc2md/libs/modifications/main.hbs",
+                "jsdoc2md/libs/modifications/scope.hbs"
+            ],
+            "target_path": "jsdoc2md_modifications_path"
+        },
+        "jsonDoc__cll_main": {
+            "version": "1.0.0",
+            "description": "Main parials for jsonDoc to use in cordova projects",
+            "type": "meta",
+            "src": [
+                "jsonDoc/CLL_Conference/api.md",
+                "jsonDoc/CLL_Conference/html.md"
+            ],
+            "target_path": "jsonDoc_path"
+        },
+        "jsonDoc__cll_modifications": {
+            "version": "1.0.0",
+            "description": "Metapackage containing all parials and helpers for jsonDoc to use in cordova projects",
+            "type": "meta",
+            "src": [
+                "jsonDoc/CLL_Conference/modifications/api_main.md",
+                "jsonDoc/CLL_Conference/modifications/api_nth.md",
+                "jsonDoc/CLL_Conference/modifications/helpers.js",
+                "jsonDoc/CLL_Conference/modifications/html_main.md",
+                "jsonDoc/CLL_Conference/modifications/html_nth.md"
+            ],
+            "target_path": "jsonDoc_modifications_path"
+        },
+        "jsonDoc__cll_partial": {
+            "version": "1.0.0",
+            "description": "Metapackage containing all parials and helpers for jsonDoc to use in cordova projects",
+            "type": "meta",
+            "src": [
+                "jsonDoc/CLL_Conference/modifications/partials/depend_link.md",
+                "jsonDoc/CLL_Conference/modifications/partials/description.md",
+                "jsonDoc/CLL_Conference/modifications/partials/params.md",
+                "jsonDoc/CLL_Conference/modifications/partials/params_head.md",
+                "jsonDoc/CLL_Conference/modifications/partials/params_typed.md",
+                "jsonDoc/CLL_Conference/modifications/partials/params_typed_head.md",
+                "jsonDoc/CLL_Conference/modifications/partials/returnsFunction_typed_head.md",
+                "jsonDoc/CLL_Conference/modifications/partials/returns_typed_head.md",
+                "jsonDoc/CLL_Conference/modifications/partials/subheadline.md"
+            ],
+            "target_path": "jsonDoc_modifications_partial_path"
+        },
+        "jsonDoc__dhlc_in_main": {
+            "version": "1.0.0",
+            "description": "Main parials for jsonDoc to use in cordova projects",
+            "type": "meta",
+            "src": [
+                "jsonDoc/dhlc_in/api.md",
+                "jsonDoc/dhlc_in/html.md"
+            ],
+            "target_path": "jsonDoc_path"
+        },
+        "jsonDoc__dhlc_in_modifications": {
+            "version": "1.0.0",
+            "description": "Metapackage containing all parials and helpers for jsonDoc to use in cordova projects",
+            "type": "meta",
+            "src": [
+                "jsonDoc/dhlc_in/modifications/api_main.md",
+                "jsonDoc/dhlc_in/modifications/api_nth.md",
+                "jsonDoc/dhlc_in/modifications/helpers.js",
+                "jsonDoc/dhlc_in/modifications/html_main.md",
+                "jsonDoc/dhlc_in/modifications/html_nth.md"
+            ],
+            "target_path": "jsonDoc_modifications_path"
+        },
+        "jsonDoc__dhlc_in_partial": {
+            "version": "1.0.0",
+            "description": "Metapackage containing all parials and helpers for jsonDoc to use in cordova projects",
+            "type": "meta",
+            "src": [
+                "jsonDoc/dhlc_in/modifications/partials/depend_link.md",
+                "jsonDoc/dhlc_in/modifications/partials/description.md",
+                "jsonDoc/dhlc_in/modifications/partials/params.md",
+                "jsonDoc/dhlc_in/modifications/partials/params_head.md",
+                "jsonDoc/dhlc_in/modifications/partials/params_typed.md",
+                "jsonDoc/dhlc_in/modifications/partials/params_typed_head.md",
+                "jsonDoc/dhlc_in/modifications/partials/returns_typed_head.md",
+                "jsonDoc/dhlc_in/modifications/partials/subheadline.md"
+            ],
+            "target_path": "jsonDoc_modifications_partial_path"
+        }
+  }
+}
