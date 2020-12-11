@@ -1,0 +1,15 @@
+{{#globals kind=kind ~}}
+{{#if @first~}}{{>heading-indent}}{{translate ../title}}
+
+<dl>
+{{/if~}}
+<dt>{{>sig-link-html}}{{{conditionalTemplate "<br/>&nbsp;&nbsp;<small>Kategotie:&nbsp;{{0}}</small>" ( kategorie meta category )}}}</dt>
+{{#if summary}}
+<dd>{{{md (inlineLinks summary)}}}</dd>
+{{~else~}}
+<dd>{{{md (inlineLinks description)}}}</dd>
+{{/if}}
+{{#if @last~}}</dl>
+
+{{/if~}}
+{{/globals~}}

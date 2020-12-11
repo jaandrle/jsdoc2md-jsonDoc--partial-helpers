@@ -1,0 +1,15 @@
+{{#if scope}}
+**Kind**: {{#if (equal kind "event") ~}}
+event emitted{{#if memberof}} by {{>link to=memberof}}{{/if}} {{{fileLink anchorName meta}}}  
+{{else~}}
+{{scope}} {{#if virtual}}abstract {{/if}}{{kindInThisContext}}{{#if memberof}} of {{>link to=memberof}}{{/if}} {{{fileLink anchorName meta}}}  
+{{/if~}}
+{{else~}}
+{{#if isExported}}**Kind**: Exported {{kind}} {{{fileLink anchorName meta}}}  
+{{/if~}}
+{{/if~}}
+{{#if (equal kind "event") ~}}
+- Pro vyhledání naslouchačů/spouštěčů použijte workaround — hledejte dle `Fires: {{name}}` resp. `Listens: {{name}}`.
+- Pokud je naslouchač vnitřní (`inner`), volá se pouze pokud je volána vnější funkce (typicky u stránek je naslouchač zavolán pokud je uživatel na dané stránce).  
+
+{{/if}}

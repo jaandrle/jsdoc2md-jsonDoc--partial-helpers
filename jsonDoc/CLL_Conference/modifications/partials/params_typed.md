@@ -1,0 +1,1 @@
+| `${key}` | ${typedArray value "<br>&nbsp;&nbsp;"} |  

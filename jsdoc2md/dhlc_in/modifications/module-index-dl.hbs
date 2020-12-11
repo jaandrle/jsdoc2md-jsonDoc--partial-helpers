@@ -1,0 +1,15 @@
+{{#modules~}}
+{{#if @first~}}{{>heading-indent}}Kategorizace
+
+<dl>
+{{/if~}}
+<dt>{{>sig-link-html}}</dt>
+{{#if summary}}
+<dd>{{{md (inlineLinks summary)}}}</dd>
+{{~else~}}
+<dd>{{{md (inlineLinks description)}}}</dd>
+{{/if}}
+{{#if @last~}}</dl>
+
+{{/if~}}
+{{/modules~}}
