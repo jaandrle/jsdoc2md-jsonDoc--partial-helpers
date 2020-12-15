@@ -32,7 +32,7 @@
         },
         "jsdoc2md__libs_gulp_task": {
             "version": "1.0.0",
-            "description": "Gulp task for creating docs into `/docs/` from `/src_docs/. From file defined in `docs_locations`.`",
+            "description": "Gulp task for creating docs into `/docs/` from `/src_docs/. From file defined in `docs_locations`.",
             "src": "jsdoc2md/libs/for_gulp/task-doc.js",
             "target_path": "gulp_tasks"
         },
@@ -127,6 +127,30 @@
                 "jsonDoc/dhlc_in/modifications/partials/subheadline.md"
             ],
             "target_path": "jsonDoc_modifications_partial_path"
+        },
+        "examples__libs_gulp_task": {
+            "version": "1.0.0",
+            "description": "Gulp task for creating examples into `/docs/` from `/src_docs/. From file defined in `folder` and `lib_file`.",
+            "src": "examples/libs/task-examples.js",
+            "target_path": "gulp_tasks"
+        },
+        "examples__libs_css": {
+            "version": "1.0.0",
+            "description": "Styles for `examples__libs_main`",
+            "src": "examples/libs/examples.css",
+            "target_path": "doc_path"
+        },
+        "examples__libs_nth": {
+            "version": "1.0.0",
+            "description": "File pattern for example",
+            "src": "examples/libs/example.sub.html",
+            "target_path": "examples_nth_path"
+        },
+        "examples__libs_main": {
+            "version": "1.0.0",
+            "description": "Main file for exmpales",
+            "src": "examples/libs/examples.html",
+            "target_path": "examples_main_path"
         }
   }
 }
