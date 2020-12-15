@@ -129,7 +129,7 @@
             "target_path": "jsonDoc_modifications_partial_path"
         },
         "examples__libs_gulp_task": {
-            "version": "1.0.0",
+            "version": "1.0.1",
             "description": "Gulp task for creating examples into `/docs/` from `/src_docs/. From file defined in `folder` and `lib_file`.",
             "src": "examples/libs/task-examples.js",
             "target_path": "gulp_tasks"

@@ -19,7 +19,7 @@ module.exports= function({gulp, scripts, $g, $o, app, cordova_target_device, err
         });
     };
     function addSourceLink(match, chars, file_text){
-        if(match==="<!-- gulp – tast-examples: insert file link -->"){
+        if(match==="<!-- gulp – task-examples: insert file link -->"){
             return links_paragraphs_buffer.shift();
         }
         const line= String((t=> t&&t.length+1||1)(file_text.substring(0, chars).match(/\r?\n/g)));
